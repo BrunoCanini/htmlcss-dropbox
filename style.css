@@ -4,12 +4,11 @@
     padding: 0;
 }
 
-/* ##### Header ##### */
+/* ##### HEADER ##### */
 
 header{
     width: 100vw;
     height: 100px;
-    background-color: rgb(199, 184, 184);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -23,7 +22,7 @@ header{
 }
 
 header a{
-    margin: 0 50px;
+    margin: 0 40px;
     text-decoration: none;
     color: grey;
 }
@@ -33,4 +32,40 @@ header a{
     background-color: #0061ff;
     color: white;
     border: none;
+}
+
+/* ##### JUMBOTRON ##### */
+
+.jumbotron{
+    width: 100vw;
+    background-color: rgb(27, 187, 187);
+    margin-top: 100px;
+    padding-top: 130px;
+}
+
+.jumbotitle{
+    width: 75%;
+    min-height: 200px;
+    margin: auto;
+    background-color: blue;
+}
+
+.jumbomain{
+    width: 75%;
+    min-height: 500px;
+    margin: auto;
+    background-color: red;
+    display: flex;
+}
+
+.jumboinfo{
+    width: 35%;
+    min-height: 500px;
+    background-color: yellow;
+}
+
+.jumboimg{
+    width: 65%;
+    min-height: 500px;
+    background-color: blueviolet;
 }
