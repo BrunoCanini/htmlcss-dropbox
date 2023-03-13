@@ -100,6 +100,18 @@ main{
 
 /* Section 1 */
 
+section >h2{
+    font-size: 40px;
+}
+
+input[type=radio] {
+    margin: 60px 0 50px 0;
+}
+
+.radiospan{
+    margin: 0 40px 0 5px;
+}
+
 .business{
     width: 100%;
     background-color: blue;
@@ -118,6 +130,26 @@ main{
     min-height: 300px;
     margin-top: 60px;
     background-color: yellow;
+}
+
+.testata{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo{
+    padding: 40px 25px;
+}
+
+.corpo >p{
+    margin: 20px 0;
+}
+
+.fa-solid{
+    margin-right: 5px;
 }
 
 /* Section 2 */
