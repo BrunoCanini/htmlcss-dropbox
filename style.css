@@ -39,10 +39,11 @@ header a{
 /* ##### JUMBOTRON ##### */
 
 .jumbotron{
-    width: 100vw;
+    width: 99vw;
     background-color: rgb(27, 187, 187);
     margin-top: 100px;
     padding-top: 130px;
+    margin: auto;
 }
 
 .jumbotitle{
@@ -108,6 +109,7 @@ main{
     width: 100%;
     min-height: 400px;
     margin-top: 150px;
+    margin-bottom: 150px;
     background-color: #0061ff;
     display: flex;
 }
@@ -122,4 +124,102 @@ main{
     width: 40%;
     min-height: 400px;
     background-color: rosybrown;
+}
+
+/* Section 3 */
+
+.opbusiness{
+    width: 100%;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc(100% / 3 - 10px);
+    min-height: 400px;
+    background-color: green;
+    margin-top: 30px;
+}
+
+/* SPONSOR */
+
+.sponsor{
+    width: 99vw;
+    height: calc(100vh / 2);
+    margin: auto;
+    background-color: burlywood;
+    display: flex;
+}
+
+.sp{
+    width: calc(100% / 3);
+    min-height: 100%;
+}
+
+.left ,.right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+}
+
+.trialfree{
+    width: 99vw;
+    min-height: 400px;
+    background-color: #b4d0e7;
+}
+
+.cont{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.trialleft{
+    width: 60%;
+    min-height: 400px;
+    background-color: red;
+}
+
+.trialright{
+    width: 40%;
+    min-height: 400px;
+    background-color: green;
+}
+
+/* FAQ */
+
+.faq{
+    min-height: 550px;
+    background-color: brown;
+}
+
+/* ##### FOOTER ##### */
+
+footer{
+    width: 99vw;
+    min-height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    background-color: black;
+}
+
+.foot{
+    display: flex;
+}
+
+.column{
+    width: calc(100% / 5);
+    min-height: 300px;
+    background-color: grey;
+    border: 1px solid white;
+}
+
+.lenguage{
+    margin-top: 60px;
 }
