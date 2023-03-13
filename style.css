@@ -114,15 +114,13 @@ input[type=radio] {
 
 .business{
     width: 100%;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
 }
 
 .b{
     width: calc(100% / 3 - 50px);
-    min-height: 800px;
-    background-color: red;
+    border: 1px solid black;
 }
 
 .enterprise{
@@ -133,7 +131,7 @@ input[type=radio] {
 }
 
 .testata{
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -146,10 +144,30 @@ input[type=radio] {
 
 .corpo >p{
     margin: 20px 0;
+    display: flex;
 }
 
 .fa-solid{
     margin-right: 5px;
+}
+
+.secondbutton{
+    padding: 10px 10px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    margin: 40px 25px;
+    width: 85%;
+    height: 40px;
+}
+
+hr{
+    margin: 30px 0;
+}
+
+
+.fa-check{
+    color: #0061ff;
 }
 
 /* Section 2 */
