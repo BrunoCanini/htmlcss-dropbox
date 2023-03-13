@@ -3,3 +3,34 @@
     margin: 0;
     padding: 0;
 }
+
+/* ##### Header ##### */
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(199, 184, 184);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.h{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    margin: 0 50px;
+    text-decoration: none;
+    color: grey;
+}
+
+.button{
+    padding: 10px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
