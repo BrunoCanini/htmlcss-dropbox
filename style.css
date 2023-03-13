@@ -13,6 +13,8 @@ header{
     justify-content: space-between;
     position: fixed;
     top: 0;
+    z-index: 100;
+    background-color: white;
 }
 
 .h{
@@ -68,4 +70,56 @@ header a{
     width: 65%;
     min-height: 500px;
     background-color: blueviolet;
+}
+
+/* ##### MAIN ##### */
+
+main{
+    width: 60%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+/* Section 1 */
+
+.business{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.b{
+    width: calc(100% / 3 - 50px);
+    min-height: 800px;
+    background-color: red;
+}
+
+.enterprise{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 60px;
+    background-color: yellow;
+}
+
+/* Section 2 */
+
+.partership{
+    width: 100%;
+    min-height: 400px;
+    margin-top: 150px;
+    background-color: #0061ff;
+    display: flex;
+}
+
+.shipleft{
+    width: 60%;
+    min-height: 400px;
+    background-color: rgb(24, 23, 21);
+}
+
+.shipright{
+    width: 40%;
+    min-height: 400px;
+    background-color: rosybrown;
 }
