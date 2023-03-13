@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ##### HEADER ##### */
 
 header{
@@ -39,44 +43,57 @@ header a{
 /* ##### JUMBOTRON ##### */
 
 .jumbotron{
-    width: 99vw;
-    background-color: rgb(27, 187, 187);
+    width: 99.3vw;
+    background-color: #b4d0e7;
     margin-top: 100px;
     padding-top: 130px;
     margin: auto;
 }
 
+.jumbotitle >h1{
+    font-size: 100px;
+}
+
 .jumbotitle{
-    width: 75%;
-    min-height: 200px;
+    width: 65%;
     margin: auto;
-    background-color: blue;
+    padding: 20px;
 }
 
 .jumbomain{
-    width: 75%;
-    min-height: 500px;
+    width: 65%;
     margin: auto;
-    background-color: red;
     display: flex;
 }
 
 .jumboinfo{
-    width: 35%;
-    min-height: 500px;
-    background-color: yellow;
+    width: 30%;
+    padding: 10px 20px;
+}
+
+.jumboinfo >p{
+    margin: 40px 0;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    color: black;
 }
 
 .jumboimg{
-    width: 65%;
-    min-height: 500px;
-    background-color: blueviolet;
+    width: 70%;
+
+}
+
+.jumboimg >img{
+    width: 100%;
+    margin-top: 40px;
 }
 
 /* ##### MAIN ##### */
 
 main{
-    width: 60%;
+    width: 50%;
     margin: auto;
     margin-top: 200px;
 }
@@ -146,7 +163,7 @@ main{
 /* SPONSOR */
 
 .sponsor{
-    width: 99vw;
+    width: 99.3vw;
     height: calc(100vh / 2);
     margin: auto;
     background-color: burlywood;
@@ -169,13 +186,13 @@ main{
 }
 
 .trialfree{
-    width: 99vw;
+    width: 99.3vw;
     min-height: 400px;
     background-color: #b4d0e7;
 }
 
 .cont{
-    width: 60%;
+    width: 50%;
     margin: auto;
     display: flex;
 }
@@ -202,7 +219,7 @@ main{
 /* ##### FOOTER ##### */
 
 footer{
-    width: 99vw;
+    width: 99.3vw;
     min-height: 500px;
     margin: auto;
     padding-top: 50px;
