@@ -200,28 +200,28 @@ hr{
     display: flex;
 }
 
-.shipleft{
+.shipLeft{
     width: 60%;
 }
 
-.shipleft >img{
+.shipLeft >img{
     display: block;
     width: 100%;
 }
 
-.shipright{
-    width: 35%;
-    padding: 70px 90px 100px 60px;
+.shipRight{
+    width: 40%;
+    padding: 40px;
 }
 
-.shipright >p {
+.shipRight >p {
     margin: 30px 0 40px 0;
     font-size: 17px;
 }
 
-.buttonwhite{
-    padding: 10px;
-    font-size: 18px;
+.buttonWhite{
+    padding: 10px 10px;
+    width: 40%;
     background-color: white;
     border: 1px solid black;
 }
