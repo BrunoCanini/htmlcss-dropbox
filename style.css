@@ -228,7 +228,7 @@ hr{
 
 /* Section 3 */
 
-.opbusiness{
+.opBusiness{
     width: 100%;
     margin-bottom: 200px;
     margin-top: 50px;
@@ -238,7 +238,7 @@ hr{
 }
 
 .card{
-    width: calc(100% / 3 - 70px);
+    width: calc(100% / 3 - 30px);
     margin-top: 30px;
 }
 
