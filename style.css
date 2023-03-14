@@ -57,28 +57,30 @@ header a{
 .jumbotron{
     width: 100%;
     background-color: #b4d0e7;
-    margin-top: 100px;
-    padding-top: 130px;
 }
 
-.jumbotitle >h1{
+.jumboTitle{
+    padding-top: 40px;
+    position: relative;
+    top: 120px;
+}
+
+.jumboTitle >h1{
     font-size: 80px;
 }
 
-.jumbotitle{
-    padding: 20px;
-}
-
-.jumbomain{
+.jumboMain{
     display: flex;
+    position: relative;
+    top: 120px;
 }
 
-.jumboinfo{
+.jumboInfo{
     width: 30%;
-    padding: 10px 20px;
+    padding: 10px 0;
 }
 
-.jumboinfo >p{
+.jumboInfo >p{
     margin: 40px 0;
 }
 
@@ -87,11 +89,11 @@ header a{
     color: black;
 }
 
-.jumboimg{
+.jumboImg{
     width: 70%;
 }
 
-.jumboimg >img{
+.jumboImg >img{
     width: 100%;
     margin-top: 40px;
 }
