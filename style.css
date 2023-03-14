@@ -355,14 +355,10 @@ hr{
     background-color: white;
     border: none;
     width: 90%;
+    font-size: 16px;
 }
 
 /* FAQ */
-
-.faq{
-    width: 50%;
-    margin: auto;
-}
 
 .faq >h2{
     font-size: 35px;
