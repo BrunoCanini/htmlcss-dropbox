@@ -275,6 +275,8 @@ hr{
     min-height: 400px;
     background-color: #b4d0e7;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .cont{
@@ -283,16 +285,26 @@ hr{
     display: flex;
 }
 
+.trial{
+    align-items: center;
+}
+
 .trialleft{
     width: 60%;
-    min-height: 400px;
-    background-color: red;
+    font-size: 25px;
 }
 
 .trialright{
     width: 40%;
-    min-height: 400px;
-    background-color: green;
+}
+
+#buttontrial{
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    margin: 40px 25px;
+    width: 260px;
+    height: 40px;
 }
 
 .info{
@@ -310,7 +322,7 @@ hr{
     border: 20px solid #d1e9cd;
 }
 
-.square >img{
+.square > img{
     width: 50%;
 }
 
@@ -345,8 +357,30 @@ hr{
 /* FAQ */
 
 .faq{
-    min-height: 550px;
-    background-color: brown;
+    width: 50%;
+    margin: auto;
+}
+
+.faq >h2{
+    font-size: 35px;
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.quest{
+    border-top: 1px solid rgba(128, 128, 128, 0.4);
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+    margin-bottom: 150px;
+}
+
+.fa-chevron-down{
+    margin-right: 30px;
 }
 
 /* ##### FOOTER ##### */
