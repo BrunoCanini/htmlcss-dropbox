@@ -253,9 +253,8 @@ hr{
 /* SPONSOR */
 
 .sponsor{
-    width: 99.3vw;
-    height: calc(99.3vw / 3);
-    margin: auto;
+    width: 100%;
+    height: calc(100vw / 3);
     background-color: burlywood;
     display: flex;
     margin-top: 150px;
@@ -277,43 +276,6 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.trialfree{
-    width: 99.3vw;
-    min-height: 400px;
-    background-color: #b4d0e7;
-    margin: auto;
-    display: flex;
-    align-items: center;
-}
-
-.cont{
-    width: 50%;
-    margin: auto;
-    display: flex;
-}
-
-.trial{
-    align-items: center;
-}
-
-.trialleft{
-    width: 60%;
-    font-size: 25px;
-}
-
-.trialright{
-    width: 40%;
-}
-
-#buttontrial{
-    padding: 5px 10px;
-    background-color: white;
-    border: none;
-    margin: 40px 25px;
-    width: 260px;
-    height: 40px;
 }
 
 .info{
@@ -362,6 +324,37 @@ hr{
 
 .s8{
     background-color: #ffd830;
+}
+
+/* Trial */
+
+.trialFree{
+    width: 100%;
+    padding: 150px 0;
+    background-color: #b4d0e7;
+}
+
+.trial{
+    display: flex;
+}
+
+.trialLeft{
+    width: 70%;
+    font-size: 25px;
+}
+
+.trialRight{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+#buttonTrial{
+    padding: 10px 10px;
+    background-color: white;
+    border: none;
+    width: 90%;
 }
 
 /* FAQ */
