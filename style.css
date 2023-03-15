@@ -25,13 +25,6 @@ body{
     border: 1px solid rgba(128, 128, 128, 0.3);
 }
 
-.hrM{
-    margin-top: 100px;
-    margin-right: 2350px;
-    position: relative;
-    left: 640px;
-}
-
 /* ##### HEADER ##### */
 
 header{
@@ -452,7 +445,7 @@ footer{
 }
 
 .lenguage{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .fa-earth-americas{
@@ -464,4 +457,13 @@ select{
     color: grey;
     border: none;
     margin-bottom: 40px;
+}
+
+.hrFoot{
+    width: calc(100% / 5);
+    margin-top: 70px;
+}
+
+.hrM{
+    margin-right: 50%;
 }
