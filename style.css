@@ -20,6 +20,18 @@ body{
     margin: auto;
 }
 
+.hrSmall{
+    margin-right: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.hrM{
+    margin-top: 100px;
+    margin-right: 2350px;
+    position: relative;
+    left: 640px;
+}
+
 /* ##### HEADER ##### */
 
 header{
@@ -440,7 +452,7 @@ footer{
 }
 
 .lenguage{
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .fa-earth-americas{
