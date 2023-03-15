@@ -199,9 +199,9 @@ hr{
     color: #0061ff;
 }
 
-#mounth{
+.month{
     color: grey;
-    margin-bottom: 60px;
+    margin-bottom: 60px !important;
 }
 
 /* Section 2 */
